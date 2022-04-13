@@ -18,4 +18,8 @@
 3) Create Github public Repository where we update the code.
 4) Upload code on Github.
 5) On jenkins create a pipeline project
-6) 
+6) In the Build Triggers section of the pipeline configuration , we have enabled poll SCM for every minute so that every minute it will check Git repo if        there is and commit or not , if there is any commit in the repo , the pipeline will get triggered. 
+
+![alt text](http://url/to/img.png)
+
+8) In the Pipeline section , I have configured 
