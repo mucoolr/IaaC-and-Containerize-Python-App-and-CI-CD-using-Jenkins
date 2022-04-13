@@ -1,11 +1,6 @@
 region             = "us-east-1"
-# lBsecurityGroups   = module.vpc.default_security_group_id
-# lBSubnet           = module.vpc.public_subnets
-# vpcId              = module.vpc.vpc_id
 ecsClusterName     = "ecs-cluster"
 tags               = { "Purpose" : "staging" ,"Owner":"ashish","Project":"metaportal"}
-# ecs_securityGroups = module.vpc.default_security_group_id
-# ecs_subnets        = module.vpc.private_subnets
 name_ecs_service   = "ecs-service"
 taskDesiredCount   = 1
 cpu                = 512
