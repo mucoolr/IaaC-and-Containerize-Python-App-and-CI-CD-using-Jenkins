@@ -29,8 +29,3 @@
 
 1) The last stage of pipeline is Deployment .
 2) After the image is pushed to ECR, we again run the terraform code , passing new image as argument in terraform apply command which Deploys the latest build of our code to ECS.
-
-### Jenkins URL:http://52.54.232.247:8080
-Username: mukul , Password : Jenkins@9
-
-### URI of the application hosted: http://ecs-cluster-lb-608991636.us-east-1.elb.amazonaws.com
